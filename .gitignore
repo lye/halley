@@ -31,7 +31,7 @@ Thumbs.db
 
 # Binaries
 /assets/
-/assets_unpacked/
+assets_unpacked
 /bin/
 *.dll
 *.hi
@@ -50,6 +50,10 @@ halley-sample-test
 [Dd]ebug*/
 [Rr]elease*/
 obj/
+CMakeFiles
+Makefile
+cmake_install.cmake
+/CMakeCache.txt
 
 # Misc
 *.cache
@@ -57,6 +61,7 @@ obj/
 *.log
 _ReSharper*/
 *.sbr
+*.swp
 
 # Build system
 /build/
